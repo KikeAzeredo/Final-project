@@ -1,0 +1,47 @@
+.display-5{
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.first{
+    background-color: rgba(33, 79, 179, 0.315);
+}
+.mine{
+    border-radius: 50%;
+}
+.title{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.features > h1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+.icon-square{
+    border-radius: 15%;
+}
+footer{
+    background-color: rgba(0, 17, 255, 0.637);
+}
+h1{
+    color: blue;
+}
+h3{
+    color: rgba(0, 183, 255, 0.692);
+}
+@media (max-width:768px) {
+    .skills{
+        display: grid;
+        gap: 40px;
+    }
+    
+}
+
